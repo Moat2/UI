@@ -50,7 +50,7 @@ end
 
 local themes = {
     SchemeColor = Color3.fromRGB(74, 99, 135),
-    Background = Color3.fromRGB(36, 37, 43),
+    Background = Color3.fromRGB(76, 193, 3),
     Header = Color3.fromRGB(28, 29, 34),
     TextColor = Color3.fromRGB(255,255,255),
     ElementColor = Color3.fromRGB(32, 32, 38)
@@ -257,7 +257,7 @@ function Kavo.CreateLib(kavName, themeList)
 
     title.Name = "title"
     title.Parent = MainHeader
-    title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    title.BackgroundColor3 = Color3.fromRGB(76, 193, 3)
     title.BackgroundTransparency = 1.000
     title.BorderSizePixel = 0
     title.Position = UDim2.new(0.0171428565, 0, 0.344827592, 0)
@@ -334,7 +334,7 @@ function Kavo.CreateLib(kavName, themeList)
 
     infoContainer.Name = "infoContainer"
     infoContainer.Parent = Main
-    infoContainer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    infoContainer.BackgroundColor3 = Color3.fromRGB(76, 193, 3)
     infoContainer.BackgroundTransparency = 1.000
     infoContainer.BorderColor3 = Color3.fromRGB(27, 42, 53)
     infoContainer.ClipsDescendants = true
@@ -523,7 +523,7 @@ function Kavo.CreateLib(kavName, themeList)
 
             sectionName.Name = "sectionName"
             sectionName.Parent = sectionHead
-            sectionName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            sectionName.BackgroundColor3 = Color3.fromRGB(76, 193, 3)
             sectionName.BackgroundTransparency = 1.000
             sectionName.BorderColor3 = Color3.fromRGB(27, 42, 53)
             sectionName.Position = UDim2.new(0.0198863633, 0, 0, 0)
@@ -544,7 +544,7 @@ function Kavo.CreateLib(kavName, themeList)
                
             sectionInners.Name = "sectionInners"
             sectionInners.Parent = sectionFrame
-            sectionInners.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            sectionInners.BackgroundColor3 = Color3.fromRGB(76, 193, 3)
             sectionInners.BackgroundTransparency = 1.000
             sectionInners.Position = UDim2.new(0, 0, 0.190751448, 0)
 
@@ -814,7 +814,7 @@ function Kavo.CreateLib(kavName, themeList)
 
                 write.Name = "write"
                 write.Parent = textboxElement
-                write.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                write.BackgroundColor3 = Color3.fromRGB(76, 193, 3)
                 write.BackgroundTransparency = 1.000
                 write.BorderColor3 = Color3.fromRGB(27, 42, 53)
                 write.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
@@ -1025,7 +1025,7 @@ function Kavo.CreateLib(kavName, themeList)
 
                     togName.Name = "togName"
                     togName.Parent = toggleElement
-                    togName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                    togName.BackgroundColor3 = Color3.fromRGB(76, 193, 3)
                     togName.BackgroundTransparency = 1.000
                     togName.Position = UDim2.new(0.096704483, 0, 0.272727281, 0)
                     togName.Size = UDim2.new(0, 288, 0, 14)
